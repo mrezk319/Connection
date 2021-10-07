@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "353572329530",
+    "project_id": "socialapp-ef1ea",
+    "storage_bucket": "socialapp-ef1ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353572329530:android:1e8186b8cfa308e1383d03",
+        "android_client_info": {
+          "package_name": "com.example.social_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353572329530-bdjc2faoniiui4cmgnkupsqa3ng24hih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7IZgPNxHvPJV6X_KjWX8Gmoa8vtHukN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353572329530-bdjc2faoniiui4cmgnkupsqa3ng24hih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353572329530:android:bca9adbcd0a4a3de383d03",
+        "android_client_info": {
+          "package_name": "com.example.social_app_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353572329530-5ousqeh04hrv6d3fofm1m064v9b8gen6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.social_app_2",
+            "certificate_hash": "ea91fdb3ed46e89b62d5a896c752033d3f4e750e"
+          }
+        },
+        {
+          "client_id": "353572329530-bdjc2faoniiui4cmgnkupsqa3ng24hih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7IZgPNxHvPJV6X_KjWX8Gmoa8vtHukN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353572329530-bdjc2faoniiui4cmgnkupsqa3ng24hih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
