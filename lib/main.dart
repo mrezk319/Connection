@@ -13,7 +13,7 @@ void main() async{
   await CacheHelper.init();
   await Firebase.initializeApp();
   Bloc.observer = MyBlocObserver();
-  bool chooseFirstPagse = CacheHelper.getDate(key: "isSigned") == null ? false : CacheHelper.getDate(key: "isSigned") ;
+  bool chooseFirstPagse = CacheHelper.getDate(key: "isSigned") == null ? false : CacheHelper.getDate(key: "isSigned");
   print(chooseFirstPagse);
   runApp(MyApp(chooseFirstPagse));
 }
@@ -21,11 +21,10 @@ void main() async{
 class MyApp extends StatelessWidget {
 bool whoIsFirst;
 MyApp(this.whoIsFirst);
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(providers: [
-      BlocProvider(create:(context)=> HomeCubit()..changeIndex(3)),
+      BlocProvider(create:(context)=> HomeCubit()),
     ], child: MaterialApp(
       debugShowCheckedModeBanner: false,
       home:whoIsFirst ?HomeLayout() : SignIn(),
