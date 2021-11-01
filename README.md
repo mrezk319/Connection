@@ -1,4 +1,4 @@
-# social_app_2
+# Social_App
 
 A new Flutter application.
 

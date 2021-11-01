@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:social_app_2/layout/home_layout.dart';
-import 'package:social_app_2/modeules/logIn/log_in.dart';
-import 'package:social_app_2/modeules/signUp/cubit/signup_cubit.dart';
-import 'package:social_app_2/modeules/signUp/cubit/signup_states.dart';
-import 'package:social_app_2/shared/components/components.dart';
+import 'package:Social_App/layout/home_layout.dart';
+import 'package:Social_App/modeules/logIn/log_in.dart';
+import 'package:Social_App/modeules/signUp/cubit/signup_cubit.dart';
+import 'package:Social_App/modeules/signUp/cubit/signup_states.dart';
+import 'package:Social_App/shared/components/components.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter_styled_toast/flutter_styled_toast.dart';
-import 'package:social_app_2/shared/network/local.dart';
+import 'package:Social_App/shared/network/local.dart';
 class SignUp extends StatelessWidget {
   var formKey = GlobalKey<FormState>();
   var nameController = TextEditingController();

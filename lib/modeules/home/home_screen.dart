@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:social_app_2/layout/cubit/cubit.dart';
-import 'package:social_app_2/layout/cubit/states.dart';
+import 'package:Social_App/layout/cubit/cubit.dart';
+import 'package:Social_App/layout/cubit/states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:social_app_2/models/post_model.dart';
-import 'package:social_app_2/shared/components/components.dart';
+import 'package:Social_App/models/post_model.dart';
+import 'package:Social_App/shared/components/components.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 class Home extends StatelessWidget {
 

@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:social_app_2/layout/cubit/cubit.dart';
-import 'package:social_app_2/layout/cubit/states.dart';
+import 'package:Social_App/layout/cubit/cubit.dart';
+import 'package:Social_App/layout/cubit/states.dart';
 import 'package:flutter_styled_toast/flutter_styled_toast.dart';
-import 'package:social_app_2/modeules/logIn/log_in.dart';
-import 'package:social_app_2/modeules/post/post_screen.dart';
-import 'package:social_app_2/modeules/signUp/cubit/signup_states.dart';
-import 'package:social_app_2/shared/components/components.dart';
+import 'package:Social_App/modeules/logIn/log_in.dart';
+import 'package:Social_App/modeules/post/post_screen.dart';
+import 'package:Social_App/modeules/signUp/cubit/signup_states.dart';
+import 'package:Social_App/shared/components/components.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
-import 'package:social_app_2/shared/network/local.dart';
+import 'package:Social_App/shared/network/local.dart';
 
 class HomeLayout extends StatelessWidget {
   const HomeLayout({Key? key}) : super(key: key);

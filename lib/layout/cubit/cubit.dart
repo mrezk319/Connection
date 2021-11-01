@@ -2,18 +2,18 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:social_app_2/layout/cubit/states.dart';
+import 'package:Social_App/layout/cubit/states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_app_2/models/message_model.dart';
-import 'package:social_app_2/models/post_model.dart';
-import 'package:social_app_2/models/user_model.dart';
+import 'package:Social_App/models/message_model.dart';
+import 'package:Social_App/models/post_model.dart';
+import 'package:Social_App/models/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:social_app_2/modeules/chat/chats.dart';
-import 'package:social_app_2/modeules/home/home_screen.dart';
-import 'package:social_app_2/modeules/settings/settings_screen.dart';
-import 'package:social_app_2/modeules/signUp/cubit/signup_states.dart';
-import 'package:social_app_2/modeules/users/users_screen.dart';
+import 'package:Social_App/modeules/chat/chats.dart';
+import 'package:Social_App/modeules/home/home_screen.dart';
+import 'package:Social_App/modeules/settings/settings_screen.dart';
+import 'package:Social_App/modeules/signUp/cubit/signup_states.dart';
+import 'package:Social_App/modeules/users/users_screen.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 

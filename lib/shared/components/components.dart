@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_app_2/modeules/signUp/cubit/signup_cubit.dart';
+import 'package:Social_App/modeules/signUp/cubit/signup_cubit.dart';
 import 'package:flutter_styled_toast/flutter_styled_toast.dart';
 Widget textFormField(
     {required TextEditingController controller, required String hintText,IconData? suffixIcon,bool? isHint, func,TextInputType? keyBoard,TextEditingController? pass,TextEditingController? confirmpass,IconData? prefixIcon}) => TextFormField(

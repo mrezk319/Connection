@@ -4,11 +4,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
-import 'package:social_app_2/layout/cubit/cubit.dart';
-import 'package:social_app_2/layout/cubit/states.dart';
+import 'package:Social_App/layout/cubit/cubit.dart';
+import 'package:Social_App/layout/cubit/states.dart';
 import 'package:intl/intl.dart';
-import 'package:social_app_2/layout/home_layout.dart';
-import 'package:social_app_2/modeules/settings/settings_screen.dart';
+import 'package:Social_App/layout/home_layout.dart';
+import 'package:Social_App/modeules/settings/settings_screen.dart';
 class Post extends StatelessWidget {
 var textController = TextEditingController();
   @override

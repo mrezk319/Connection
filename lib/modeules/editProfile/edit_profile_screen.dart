@@ -4,11 +4,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
-import 'package:social_app_2/layout/cubit/cubit.dart';
-import 'package:social_app_2/layout/cubit/states.dart';
-import 'package:social_app_2/modeules/logIn/log_in.dart';
-import 'package:social_app_2/shared/components/components.dart';
-import 'package:social_app_2/shared/network/local.dart';
+import 'package:Social_App/layout/cubit/cubit.dart';
+import 'package:Social_App/layout/cubit/states.dart';
+import 'package:Social_App/modeules/logIn/log_in.dart';
+import 'package:Social_App/shared/components/components.dart';
+import 'package:Social_App/shared/network/local.dart';
 
 class EditProfileScreen extends StatelessWidget {
   var nameController = TextEditingController();

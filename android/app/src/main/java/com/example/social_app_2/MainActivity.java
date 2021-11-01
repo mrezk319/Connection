@@ -1,4 +1,4 @@
-package com.example.social_app_2;
+package com.example.Social_App;
 
 import io.flutter.embedding.android.FlutterActivity;
 

@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_app_2/layout/home_layout.dart';
-import 'package:social_app_2/modeules/logIn/cubit/logIn_cubit.dart';
-import 'package:social_app_2/modeules/logIn/cubit/logIn_states.dart';
-import 'package:social_app_2/modeules/signUp/sign_up.dart';
-import 'package:social_app_2/shared/components/components.dart';
-import 'package:social_app_2/shared/network/local.dart';
+import 'package:Social_App/layout/home_layout.dart';
+import 'package:Social_App/modeules/logIn/cubit/logIn_cubit.dart';
+import 'package:Social_App/modeules/logIn/cubit/logIn_states.dart';
+import 'package:Social_App/modeules/signUp/sign_up.dart';
+import 'package:Social_App/shared/components/components.dart';
+import 'package:Social_App/shared/network/local.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 class SignIn extends StatelessWidget {
   var formKey = GlobalKey<FormState>();

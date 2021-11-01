@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:social_app_2/layout/cubit/cubit.dart';
-import 'package:social_app_2/layout/home_layout.dart';
-import 'package:social_app_2/modeules/logIn/log_in.dart';
-import 'package:social_app_2/shared/bloc_observer.dart';
+import 'package:Social_App/layout/cubit/cubit.dart';
+import 'package:Social_App/layout/home_layout.dart';
+import 'package:Social_App/modeules/logIn/log_in.dart';
+import 'package:Social_App/shared/bloc_observer.dart';
 import 'package:bloc/bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:social_app_2/shared/network/local.dart';
+import 'package:Social_App/shared/network/local.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 void main() async{

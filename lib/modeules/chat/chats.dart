@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
-import 'package:social_app_2/layout/cubit/cubit.dart';
-import 'package:social_app_2/layout/cubit/states.dart';
-import 'package:social_app_2/models/user_model.dart';
-import 'package:social_app_2/modeules/chatScreen/chat_screen.dart';
+import 'package:Social_App/layout/cubit/cubit.dart';
+import 'package:Social_App/layout/cubit/states.dart';
+import 'package:Social_App/models/user_model.dart';
+import 'package:Social_App/modeules/chatScreen/chat_screen.dart';
 class Chats extends StatelessWidget {
   const Chats({Key? key}) : super(key: key);
 
